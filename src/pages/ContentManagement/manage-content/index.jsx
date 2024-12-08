@@ -3,12 +3,12 @@ import PropTypes from "prop-types";
 import "../content-management.css";
 import { MyContext } from "../../../App";
 import PageTopbar from "../../../components/PageTopbar";
-import PlusIcon from "../../../assets/images/svg/plus.svg?react";
-import ClockIcon from "../../../assets/images/svg/ic-clock.svg?react";
-import AttachmentClipIcon from "../../../assets/images/svg/attachment-clip.svg?react";
-import CommentBubbleIcon from "../../../assets/images/svg/comment-content.svg?react";
+import PlusIcon from "../../../../public/assets/images/svg/plus.svg?react";
+import ClockIcon from "../../../../public/assets/images/svg/ic-clock.svg?react";
+import AttachmentClipIcon from "../../../../public/assets/images/svg/attachment-clip.svg?react";
+import CommentBubbleIcon from "../../../../public/assets/images/svg/comment-content.svg?react";
 
-import LoginCard from "../../../assets/images/png/login-card.png";
+import LoginCard from "../../../../public/assets/images/png/login-card.png";
 
 import moment from "moment";
 import {

@@ -3,8 +3,8 @@ import { MyContext } from "../../../App";
 import PageTopbar from "../../../components/PageTopbar";
 import { Link } from "react-router-dom";
 import moment from "moment";
-import LogoFirst from "../../../assets/images/svg/splash-f1.svg?react";
-import LogoSecond from "../../../assets/images/svg/splash-f2.svg?react";
+import LogoFirst from "../../../../public/assets/images/svg/splash-f1.svg?react";
+import LogoSecond from "../../../../public/assets/images/svg/splash-f2.svg?react";
 import { jsPDF } from "jspdf";
 import html2canvas from "html2canvas";
 

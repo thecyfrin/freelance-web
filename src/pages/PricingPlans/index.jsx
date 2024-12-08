@@ -4,11 +4,11 @@ import { Button } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 import { MyContext } from "../../App";
 import PageTopbar from "../../components/PageTopbar";
-import BasicPricing from "../../assets/images/svg/ic_pricing/basic-pricing-ic.svg?react";
-import StandardPricing from "../../assets/images/svg/ic_pricing/standard-pricing-ic.svg?react";
-import PremiumPricing from "../../assets/images/svg/ic_pricing/premium-pricing-ic.svg?react";
-import BusinessPricing from "../../assets/images/svg/ic_pricing/business-pricing-ic.svg?react";
-import ArrowForward from "../../assets/images/svg/forward-arrow.svg?react";
+import BasicPricing from "../../../public/assets/images/svg/ic_pricing/basic-pricing-ic.svg?react";
+import StandardPricing from "../../../public/assets/images/svg/ic_pricing/standard-pricing-ic.svg?react";
+import PremiumPricing from "../../../public/assets/images/svg/ic_pricing/premium-pricing-ic.svg?react";
+import BusinessPricing from "../../../public/assets/images/svg/ic_pricing/business-pricing-ic.svg?react";
+import ArrowForward from "../../../public/assets/images/svg/forward-arrow.svg?react";
 
 import { FormControlLabel, styled, Switch } from "@mui/material";
 

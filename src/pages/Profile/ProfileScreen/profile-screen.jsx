@@ -13,10 +13,10 @@ import {
 import { Link } from "react-router-dom";
 import ProfileChart from "./components/profile-chart";
 import { Divider } from "@mui/material";
-import FacebookIcon from "../../../assets/images/svg/social_icons/ic-facebook.svg?react";
-import LinkedInIcon from "../../../assets/images/svg/social_icons/ic-linkedin.svg?react";
-import TwitterIcon from "../../../assets/images/svg/social_icons/ic-twitter.svg?react";
-import InstagramIcon from "../../../assets/images/svg/social_icons/ic-instagram.svg?react";
+import FacebookIcon from "../../../../public/assets/images/svg/social_icons/ic-facebook.svg?react";
+import LinkedInIcon from "../../../../public/assets/images/svg/social_icons/ic-linkedin.svg?react";
+import TwitterIcon from "../../../../public/assets/images/svg/social_icons/ic-twitter.svg?react";
+import InstagramIcon from "../../../../public/assets/images/svg/social_icons/ic-instagram.svg?react";
 import moment from "moment";
 import { ListItemDecorator } from "@mui/joy";
 import GetUtils from "../../../utils/get-functions";

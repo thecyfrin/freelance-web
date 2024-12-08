@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button";
 import React from "react";
-import ArrowDownIcon from "../../assets/images/svg/arrow-down.svg";
+import ArrowDownIcon from "../../../public/assets/images/svg/arrow-down.svg";
 
 export default function SidebarButton({
 	icon,
@@ -18,7 +18,7 @@ export default function SidebarButton({
 				<img src={icon} alt="icon" />
 			</span>
 			<div className="no-select font-normal text-gray-700">{label}</div>
-			
+
 			{/* End Icon (optional) */}
 			{endIcon && (
 				<span

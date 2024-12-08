@@ -3,9 +3,9 @@ import { MyContext } from "../../../App";
 import PageTopbar from "../../../components/PageTopbar";
 import { Link, useNavigate } from "react-router-dom";
 import moment from "moment";
-import EditIcon from "../../../assets/images/svg/rounded-correct.svg";
-import DeleteIcon from "../../../assets/images/svg/delete.svg";
-import PrintIcon from "../../../assets/images/svg/print-icon.svg";
+import EditIcon from "../../../../public/assets/images/svg/rounded-correct.svg";
+import DeleteIcon from "../../../../public/assets/images/svg/delete.svg";
+import PrintIcon from "../../../../public/assets/images/svg/print-icon.svg";
 
 import {
 	Typography,

@@ -7,11 +7,11 @@ import ModalDialog from "@mui/joy/ModalDialog";
 import DialogTitle from "@mui/joy/DialogTitle";
 import DialogContent from "@mui/joy/DialogContent";
 import DialogActions from "@mui/joy/DialogActions";
-import PlusIcon from "../../../assets/images/svg/plus.svg?react";
+import PlusIcon from "../../../../public/assets/images/svg/plus.svg?react";
 import { Divider } from "@mui/material";
 import { Card, CardBody, CardFooter, Radio } from "@material-tailwind/react";
-import VerticalLayout from "../../../assets/images/png/sidebar-vertical.png";
-import HorizontalLayout from "../../../assets/images/png/topbar-horizontal.png";
+import VerticalLayout from "../../../../public/assets/images/png/sidebar-vertical.png";
+import HorizontalLayout from "../../../../public/assets/images/png/topbar-horizontal.png";
 import SvgIcons from "../../../utils/icon-functions";
 
 function CloseIcon() {
@@ -193,8 +193,7 @@ const UtilityDialog = ({ open, setOpen }) => {
 															checked={!verticalBool}
 															onChange={() => {}}
 														/>
-														<div
-															className="no-select font-normal text-blue-gray-400">
+														<div className="no-select font-normal text-blue-gray-400">
 															Horizontal
 														</div>
 													</div>

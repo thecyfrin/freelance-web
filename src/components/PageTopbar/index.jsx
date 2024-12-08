@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import GreaterThan from "../../assets/images/svg/greater-than.svg";
+import GreaterThan from "../../../public/assets/images/svg/greater-than.svg";
 import { TapButton } from "../buttons";
 
 const PageTopbar = ({ pageName = "", items = [] }) => {

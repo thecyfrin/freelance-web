@@ -1,21 +1,21 @@
 import { useContext, useEffect, useState } from "react";
-import LogoFirst from "../../assets/images/svg/splash-f1.svg";
-import LogoSecond from "../../assets/images/svg/splash-f2.svg";
+import LogoFirst from "../../../public/assets/images/svg/splash-f1.svg";
+import LogoSecond from "../../../public/assets/images/svg/splash-f2.svg";
 import "./login.css";
 import { MyContext } from "../../App";
-import LoginCard from "../../assets/images/png/login-card.png";
+import LoginCard from "../../../public/assets/images/png/login-card.png";
 import IconButton from "@mui/material/IconButton";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import InputAdornment from "@mui/material/InputAdornment";
 import FormControl from "@mui/material/FormControl";
 import PasswordIcon from "@mui/icons-material/Password";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
-import ArrowForward from "../../assets/images/svg/forward-arrow.svg";
+import ArrowForward from "../../../public/assets/images/svg/forward-arrow.svg";
 import { Button } from "@material-tailwind/react";
 import Divider from "@mui/material/Divider";
-import AppleLogo from "../../assets/images/svg/logo-apple.svg";
-import FacebookLogo from "../../assets/images/svg/logo-facebook.svg";
-import GoogleLogo from "../../assets/images/png/logo-google.png";
+import AppleLogo from "../../../public/assets/images/svg/logo-apple.svg";
+import FacebookLogo from "../../../public/assets/images/svg/logo-facebook.svg";
+import GoogleLogo from "../../../public/assets/images/png/logo-google.png";
 import { Link } from "react-router-dom";
 
 export const LoginScreen = () => {
@@ -84,8 +84,7 @@ export const LoginScreen = () => {
 												onMouseDown={handleMouseDownPassword}
 												onMouseUp={handleMouseUpPassword}
 												edge="end"
-												className="bg-white max-w-8"
-												>
+												className="bg-white max-w-8">
 												{showPassword ? <PasswordIcon /> : <LockOpenIcon />}
 											</IconButton>
 										</InputAdornment>

@@ -1,11 +1,11 @@
 import { useContext, useEffect, useState } from "react";
 import "./usermanagement.css";
 import { MyContext } from "../../App";
-import SearchIcon from "../../assets/images/svg/search.svg";
-import FilterIcon from "../../assets/images/svg/filter-icon.svg";
-import EditIcon from "../../assets/images/svg/rounded-correct.svg";
-import DeleteIcon from "../../assets/images/svg/delete.svg";
-import ArrowDownIcon from "../../assets/images/svg/arrow-down.svg";
+import SearchIcon from "../../../public/assets/images/svg/search.svg";
+import FilterIcon from "../../../public/assets/images/svg/filter-icon.svg";
+import EditIcon from "../../../public/assets/images/svg/rounded-correct.svg";
+import DeleteIcon from "../../../public/assets/images/svg/delete.svg";
+import ArrowDownIcon from "../../../public/assets/images/svg/arrow-down.svg";
 import AccountBoxTwoToneIcon from "@mui/icons-material/AccountBoxTwoTone";
 import ArrowPrevious from "@mui/icons-material/KeyboardArrowLeftRounded";
 import ArrowNext from "@mui/icons-material/KeyboardArrowRightRounded";

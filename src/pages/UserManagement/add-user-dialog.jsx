@@ -8,12 +8,12 @@ import DialogActions from "@mui/joy/DialogActions";
 import IconButton from "@mui/joy/IconButton";
 import Input from "@mui/joy/Input";
 import React from "react";
-import PlusIcon from "../../assets/images/svg/plus.svg";
+import PlusIcon from "../../../public/assets/images/svg/plus.svg";
 import XMarkIcon from "@mui/icons-material/Close";
 import { Divider } from "@mui/material";
 import Select from "@mui/joy/Select";
 import Option from "@mui/joy/Option";
-import PowerChart from "../../assets/images/png/power-chart.png";
+import PowerChart from "../../../public/assets/images/png/power-chart.png";
 
 const AddUserDialog = () => {
 	const [open, setOpen] = React.useState(false);

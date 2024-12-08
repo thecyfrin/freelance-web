@@ -7,7 +7,7 @@ import DialogContent from "@mui/joy/DialogContent";
 import DialogActions from "@mui/joy/DialogActions";
 import Input from "@mui/joy/Input";
 import React, { useRef } from "react";
-import PlusIcon from "../../assets/images/svg/plus.svg?react";
+import PlusIcon from "../../../public/assets/images/svg/plus.svg?react";
 import { Divider } from "@mui/material";
 
 const CardAddDialog = ({ open, setOpen }) => {

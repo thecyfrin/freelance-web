@@ -3,7 +3,7 @@ import "./faq.css";
 import { Link } from "react-router-dom";
 import PageTopbar from "../../components/PageTopbar";
 import { Button } from "@material-tailwind/react";
-import UserImage from "../../assets/images/png/user-image.png";
+import UserImage from "../../../public/assets/images/png/user-image.png";
 import { MyContext } from "../../App";
 
 export const Faqs = () => {
@@ -81,7 +81,6 @@ export const Faqs = () => {
 	useEffect(() => {
 		context.setIsHeaderFooterShow(false);
 		context.setActiveTab(10);
-
 	}, [context]);
 	return (
 		<>

@@ -2,28 +2,28 @@ import React, { useContext, useState } from "react";
 import { MyContext } from "../../App";
 import { Link } from "react-router-dom";
 
-import LogoFirst from "../../assets/images/svg/splash-f1.svg";
-import LogoSecond from "../../assets/images/svg/splash-f2.svg";
-import DashboardIcon from "../../assets/images/svg/dashboard.svg";
-import UserManagementIcon from "../../assets/images/svg/user-management.svg";
-import CalendarIcon from "../../assets/images/svg/calender.svg";
-import ContentManagementIcon from "../../assets/images/svg/content-management.svg";
-import MembershipIcon from "../../assets/images/svg/membership.svg";
-import ReportAnalyticsIcon from "../../assets/images/svg/report-analytics.svg";
+import LogoFirst from "../../../public/assets/images/svg/splash-f1.svg";
+import LogoSecond from "../../../public/assets/images/svg/splash-f2.svg";
+import DashboardIcon from "../../../public/assets/images/svg/dashboard.svg";
+import UserManagementIcon from "../../../public/assets/images/svg/user-management.svg";
+import CalendarIcon from "../../../public/assets/images/svg/calender.svg";
+import ContentManagementIcon from "../../../public/assets/images/svg/content-management.svg";
+import MembershipIcon from "../../../public/assets/images/svg/membership.svg";
+import ReportAnalyticsIcon from "../../../public/assets/images/svg/report-analytics.svg";
 
-import FileManagerIcon from "../../assets/images/svg/file-manager.svg";
-import AuthenticationIcon from "../../assets/images/svg/authentication.svg";
-import ProfileIcon from "../../assets/images/svg/profile.svg";
-import InvoiceIcon from "../../assets/images/svg/invoice.svg";
-import BillingIcon from "../../assets/images/svg/billing.svg";
-import PricingPlanIcon from "../../assets/images/svg/pricing-plans.svg";
-import FaqIcon from "../../assets/images/svg/faqs.svg";
-import BlankPageIcon from "../../assets/images/svg/blank-page.svg";
-import CardIcon from "../../assets/images/svg/card.svg";
-import TableIcon from "../../assets/images/svg/table.svg";
-import FormElementsIcon from "../../assets/images/svg/form-elements.svg";
-import WidgetIcon from "../../assets/images/svg/widgets.svg";
-import DocumentationIcon from "../../assets/images/svg/documentation.svg";
+import FileManagerIcon from "../../../public/assets/images/svg/file-manager.svg";
+import AuthenticationIcon from "../../../public/assets/images/svg/authentication.svg";
+import ProfileIcon from "../../../public/assets/images/svg/profile.svg";
+import InvoiceIcon from "../../../public/assets/images/svg/invoice.svg";
+import BillingIcon from "../../../public/assets/images/svg/billing.svg";
+import PricingPlanIcon from "../../../public/assets/images/svg/pricing-plans.svg";
+import FaqIcon from "../../../public/assets/images/svg/faqs.svg";
+import BlankPageIcon from "../../../public/assets/images/svg/blank-page.svg";
+import CardIcon from "../../../public/assets/images/svg/card.svg";
+import TableIcon from "../../../public/assets/images/svg/table.svg";
+import FormElementsIcon from "../../../public/assets/images/svg/form-elements.svg";
+import WidgetIcon from "../../../public/assets/images/svg/widgets.svg";
+import DocumentationIcon from "../../../public/assets/images/svg/documentation.svg";
 import SidebarButton, { SidebarSubmenu } from "../Sidebar/button";
 export const HorizontalBar = () => {
 	const context = useContext(MyContext);
@@ -83,7 +83,6 @@ export const HorizontalBar = () => {
 						icon={ContentManagementIcon}
 						btnClass={context.activeTab === 3 ? "hori-active" : ""}
 						label="Content Management"
-						
 						onTap={() => isOpenSubmenu(3)}
 					/>
 				</Link>
@@ -110,7 +109,6 @@ export const HorizontalBar = () => {
 						icon={ProfileIcon}
 						btnClass={context.activeTab === 6 ? "hori-active" : ""}
 						label="Profile"
-						
 						onTap={() => isOpenSubmenu(6)}
 					/>
 				</Link>
@@ -120,7 +118,6 @@ export const HorizontalBar = () => {
 						icon={InvoiceIcon}
 						btnClass={context.activeTab === 7 ? "hori-active" : ""}
 						label="Invoice"
-						
 						onTap={() => isOpenSubmenu(7)}
 					/>
 				</Link>

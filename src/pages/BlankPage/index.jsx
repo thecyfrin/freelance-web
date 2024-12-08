@@ -1,6 +1,6 @@
 import PageTopbar from "../../components/PageTopbar";
-import HomeIcon from "../../assets/images/svg/home.svg";
-import FistImage from "../../assets/images/png/blank-page.png";
+import HomeIcon from "../../../public/assets/images/svg/home.svg";
+import FistImage from "../../../public/assets/images/png/blank-page.png";
 import { Button } from "@material-tailwind/react";
 import "./blank-page.css";
 import { Link } from "react-router-dom";
@@ -24,7 +24,6 @@ export const BlankPage = () => {
 	useEffect(() => {
 		context.setIsHeaderFooterShow(false);
 		context.setActiveTab(11);
-
 	}, [context]);
 	return (
 		<>

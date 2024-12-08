@@ -7,7 +7,7 @@ import DialogContent from "@mui/joy/DialogContent";
 import DialogActions from "@mui/joy/DialogActions";
 import Input from "@mui/joy/Input";
 import React, { useRef, useState } from "react";
-import ArrowForward from "../../../../assets/images/svg/forward-arrow.svg?react";
+import ArrowForward from "../../../../../public/assets/images/svg/forward-arrow.svg?react";
 import { Divider } from "@mui/material";
 import { ListDivider, ListItemDecorator, Option, Select } from "@mui/joy";
 import { Chip } from "@material-tailwind/react";
@@ -184,7 +184,7 @@ const PostCreate = ({ open, setOpen, labels = [], priorityList = [] }) => {
 													const selected = labels.find(
 														(label) => label.value === newValue
 													);
-													setLabel(selected); 
+													setLabel(selected);
 												}}
 												value={selectedLabel?.value}
 												slotProps={{

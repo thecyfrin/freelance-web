@@ -8,13 +8,13 @@ import DialogActions from "@mui/joy/DialogActions";
 import IconButton from "@mui/joy/IconButton";
 import Input from "@mui/joy/Input";
 import React, { createRef, useEffect, useRef, useState } from "react";
-import PlusIcon from "../../../assets/images/svg/plus.svg";
+import PlusIcon from "../../../../public/assets/images/svg/plus.svg";
 import XMarkIcon from "@mui/icons-material/Close";
 import { Divider } from "@mui/material";
 import Select from "@mui/joy/Select";
 import Option from "@mui/joy/Option";
 import { ListDivider, ListItemDecorator } from "@mui/joy";
-import ArrowForward from "../../../assets/images/svg/forward-arrow.svg";
+import ArrowForward from "../../../../public/assets/images/svg/forward-arrow.svg";
 
 function renderValue(label) {
 	if (!label) {

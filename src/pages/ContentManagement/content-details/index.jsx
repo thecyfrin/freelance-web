@@ -7,7 +7,7 @@ import DialogTitle from "@mui/joy/DialogTitle";
 import DialogContent from "@mui/joy/DialogContent";
 import DialogActions from "@mui/joy/DialogActions";
 import Input from "@mui/joy/Input";
-import ArrowForward from "../../../assets/images/svg/forward-arrow.svg?react";
+import ArrowForward from "../../../../public/assets/images/svg/forward-arrow.svg?react";
 import { Divider } from "@mui/material";
 import {
 	Avatar,

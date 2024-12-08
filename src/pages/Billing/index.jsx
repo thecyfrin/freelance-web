@@ -2,17 +2,17 @@ import "./billing.css";
 import React, { useContext, useEffect, useState } from "react";
 import { MyContext } from "../../App";
 import PageTopbar from "../../components/PageTopbar";
-import ArrowForward from "../../assets/images/svg/forward-arrow.svg";
-import ClockIcon from "../../assets/images/svg/ic-clock.svg";
-import CardIcon from "../../assets/images/svg/ic-card.svg";
-import VisaIcon from "../../assets/images/svg/visa-icon.svg";
-import MasterCardIcon from "../../assets/images/svg/mastercard-icon.svg";
-import CopyIcon from "../../assets/images/svg/copy-icon.svg";
+import ArrowForward from "../../../public/assets/images/svg/forward-arrow.svg";
+import ClockIcon from "../../../public/assets/images/svg/ic-clock.svg";
+import CardIcon from "../../../public/assets/images/svg/ic-card.svg";
+import VisaIcon from "../../../public/assets/images/svg/visa-icon.svg";
+import MasterCardIcon from "../../../public/assets/images/svg/mastercard-icon.svg";
+import CopyIcon from "../../../public/assets/images/svg/copy-icon.svg";
 import ArrowPrevious from "@mui/icons-material/KeyboardArrowLeftRounded";
 import ArrowNext from "@mui/icons-material/KeyboardArrowRightRounded";
-import DownloadIcon from "../../assets/images/svg/download-icon.svg";
-import PrintIcon from "../../assets/images/svg/print-icon.svg";
-import DeleteIcon from "../../assets/images/svg/delete.svg";
+import DownloadIcon from "../../../public/assets/images/svg/download-icon.svg";
+import PrintIcon from "../../../public/assets/images/svg/print-icon.svg";
+import DeleteIcon from "../../../public/assets/images/svg/delete.svg";
 
 import { Divider } from "@mui/material";
 

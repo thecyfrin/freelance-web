@@ -1,14 +1,14 @@
 import { useContext, useEffect, useState } from "react";
 import AddUserDialog from "../UserManagement/add-user-dialog";
-import SearchIcon from "../../assets/images/svg/search.svg";
-import FilterIcon from "../../assets/images/svg/filter-icon.svg";
+import SearchIcon from "../../../public/assets/images/svg/search.svg";
+import FilterIcon from "../../../public/assets/images/svg/filter-icon.svg";
 import { MyContext } from "../../App";
 import AccountBoxTwoToneIcon from "@mui/icons-material/AccountBoxTwoTone";
 import "./membership.css";
 import ArrowPrevious from "@mui/icons-material/KeyboardArrowLeftRounded";
 import ArrowNext from "@mui/icons-material/KeyboardArrowRightRounded";
-import EditIcon from "../../assets/images/svg/rounded-correct.svg";
-import DeleteIcon from "../../assets/images/svg/delete.svg";
+import EditIcon from "../../../public/assets/images/svg/rounded-correct.svg";
+import DeleteIcon from "../../../public/assets/images/svg/delete.svg";
 
 import {
 	Menu,
@@ -25,7 +25,7 @@ import {
 	Tooltip,
 	Avatar,
 } from "@material-tailwind/react";
-import ArrowDownIcon from "../../assets/images/svg/arrow-down.svg";
+import ArrowDownIcon from "../../../public/assets/images/svg/arrow-down.svg";
 import moment from "moment";
 import { Link } from "react-router-dom";
 import ShowChart from "./chart";

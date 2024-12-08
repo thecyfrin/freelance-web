@@ -1,9 +1,9 @@
 import { TapButton } from "../../components/buttons";
 import PageTopbar from "../../components/PageTopbar";
-import PlusIcon from "../../assets/images/svg/plus.svg?react";
-import EditIcon from "../../assets/images/svg/edit.svg";
-import DeleteIcon from "../../assets/images/svg/delete.svg";
-import ExtraMenuIcon from "../../assets/images/svg/extra-menu.svg";
+import PlusIcon from "../../../public/assets/images/svg/plus.svg?react";
+import EditIcon from "../../../public/assets/images/svg/edit.svg";
+import DeleteIcon from "../../../public/assets/images/svg/delete.svg";
+import ExtraMenuIcon from "../../../public/assets/images/svg/extra-menu.svg";
 
 import moment from "moment";
 import ControlCalender from "./ControlCalander";

@@ -8,7 +8,7 @@ import {
 import { MenuList } from "@mui/material";
 import moment from "moment";
 import React, { useState } from "react";
-import NotificationIcon from "../../../assets/images/svg/notification.svg";
+import NotificationIcon from "../../../../public/assets/images/svg/notification.svg";
 import GetUtils from "../../../utils/get-functions";
 
 const notificationDetails = [

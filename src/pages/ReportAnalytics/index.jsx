@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import "./report-analytics.css";
 import { MyContext } from "../../App";
-import EditIcon from "../../assets/images/svg/rounded-correct.svg";
-import DeleteIcon from "../../assets/images/svg/delete.svg";
+import EditIcon from "../../../public/assets/images/svg/rounded-correct.svg";
+import DeleteIcon from "../../../public/assets/images/svg/delete.svg";
 import {
 	Typography,
 	IconButton,

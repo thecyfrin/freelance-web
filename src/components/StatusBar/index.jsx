@@ -2,13 +2,13 @@ import React, { useContext, useEffect, useState } from "react";
 import { MyContext } from "../../App";
 import "./statusbar.css";
 
-import SearchIcon from "../../assets/images/svg/search.svg";
-import ArrowDownIcon from "../../assets/images/svg/arrow-down.svg";
-import IndiaFlag from "../../assets/images/png/india-flag.png";
-import UsaFlag from "../../assets/images/png/usa-flag.png";
-import UserImage from "../../assets/images/png/user-image.png";
-import UtilityIcon from "../../assets/images/svg/utilities.svg?react";
-import NotificationIcon from "../../assets/images/svg/notification.svg";
+import SearchIcon from "../../../public/assets/images/svg/search.svg";
+import ArrowDownIcon from "../../../public/assets/images/svg/arrow-down.svg";
+import IndiaFlag from "../../../public/assets/images/png/india-flag.png";
+import UsaFlag from "../../../public/assets/images/png/usa-flag.png";
+import UserImage from "../../../public/assets/images/png/user-image.png";
+import UtilityIcon from "../../../public/assets/images/svg/utilities.svg?react";
+import NotificationIcon from "../../../public/assets/images/svg/notification.svg";
 
 import {
 	Menu,

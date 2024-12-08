@@ -21,14 +21,14 @@ import {
 	LineChartWithXAxis,
 } from "./components/chart-model";
 import { Divider } from "@mui/joy";
-import ElectricalImage from "../../assets/images/png/dashboard/electrical-img.png";
-import PlumberImage from "../../assets/images/png/dashboard/plumber-img.png";
-import AcRepairImage from "../../assets/images/png/dashboard/ac-repair-img.png";
-import CoffeeImage from "../../assets/images/png/dashboard/coffee-img.png";
+import ElectricalImage from "../../../public/assets/images/png/dashboard/electrical-img.png";
+import PlumberImage from "../../../public/assets/images/png/dashboard/plumber-img.png";
+import AcRepairImage from "../../../public/assets/images/png/dashboard/ac-repair-img.png";
+import CoffeeImage from "../../../public/assets/images/png/dashboard/coffee-img.png";
 import Utils from "../../utils/utils";
 import moment from "moment";
-import EditIcon from "../../assets/images/svg/rounded-correct.svg?react";
-import DeleteIcon from "../../assets/images/svg/delete.svg?react";
+import EditIcon from "../../../public/assets/images/svg/rounded-correct.svg?react";
+import DeleteIcon from "../../../public/assets/images/svg/delete.svg?react";
 
 const bestServiceDetails = [
 	{
@@ -671,7 +671,9 @@ export const Dashboard = () => {
 										<th className="px-3 py-2 mb-1">Invoice</th>
 										<th className="px-3 py-2 mb-1">Relation</th>
 										<th className="px-3 py-2 mb-1">Status</th>
-										<th className="px-3 py-2 mb-1 flex items-center justify-center">Actions</th>
+										<th className="px-3 py-2 mb-1 flex items-center justify-center">
+											Actions
+										</th>
 									</tr>
 								</thead>
 
