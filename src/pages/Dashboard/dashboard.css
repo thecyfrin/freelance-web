@@ -1,0 +1,10 @@
+.sales-forecast-data {
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	gap: 1rem;
+}
+
+.dashboardWrapper .actions-container button {
+	background-color: inherit !important;
+}
+

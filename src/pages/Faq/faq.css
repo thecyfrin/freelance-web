@@ -1,0 +1,80 @@
+.faqWrapper {
+	width: 100% !important;
+	height: 90vh; /* Set to full viewport height */
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.bottomFooter {
+	font-size: 14px;
+	font-weight: 500;
+	color: grey !important;
+	text-decoration: none;
+	position: absolute; /* Position absolutely within .blankContent */
+	bottom: 10px; /* Offset slightly from bottom */
+	right: 30px; /* Offset slightly from right */
+	display: flex;
+	gap: 10px; /* Optional: add spacing between items */
+}
+
+.faqContent {
+	flex: 1; /* Ensures it takes up remaining height after PageTopbar */
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center;
+	padding: 20px !important;
+	position: relative; /* Set positioning context for absolute children */
+	width: 100%; /* Full width */
+}
+
+.faq-items-wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+	gap: 16px; /* Space between grid items */
+	width: 100%; /* Full width */
+	margin-bottom: 20px !important;
+}
+
+.single-faq {
+	height: 200px !important;
+	background-color: white;
+	border-radius: 12px;
+	padding: 12px;
+	overflow: hidden;
+	width: 100%; /* Make each item take up full width of its grid cell */
+}
+
+.faqWrapper .faq-image {
+	min-height: 80px;
+	min-width: 80px;
+	padding: 5px;
+	margin-right: 2px;
+}
+
+.faq-content {
+	margin-top: 10px;
+}
+
+.faqTitle {
+	font-size: 16px;
+	font-weight: 600;
+	color: #000;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.faqDesc {
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	text-overflow: ellipsis;
+}
+
+.pageTitle {
+	font-size: 22px !important;
+	font-weight: 600 !important;
+	margin-bottom: 15px;
+}

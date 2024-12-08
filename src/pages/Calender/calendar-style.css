@@ -1,0 +1,311 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.rbc-calendar {
+	width: 100%;
+}
+
+.rbc-toolbar {
+	max-width: 70% !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+.rbc-btn-group {
+	max-width: 5rem !important;
+	padding: 0;
+	margin: 0;
+}
+
+.rbc-event {
+	overflow: visible !important;
+	padding: 5px !important;
+	border-radius: 0 !important;
+	border: none !important;
+	background-color: inherit !important;
+	outline: none !important;
+	transition: all 0.2s !important;
+}
+
+.rbc-time-view {
+	border: none !important;
+}
+
+.rbc-label {
+	color: gainsboro !important;
+}
+
+.rbc-events-container {
+	width: 100% !important;
+	padding: 10px;
+}
+
+.rbc-event-label {
+	display: none;
+}
+
+.rbc-time-header-cell {
+	height: 50px !important;
+	display: flex;
+}
+
+.rbc-time-header-cell-single-day {
+	display: none !important;
+}
+
+.rbc-allday-cell {
+	height: 50px !important;
+}
+
+.rbc-header {
+	display: flex !important;
+	flex-direction: column !important;
+	justify-content: center !important;
+}
+
+.rbc-timeslot-group {
+	padding: 2px;
+}
+.rbc-event.rbc-selected {
+	background-color: inherit !important;
+	border: none !important;
+	outline: none !important;
+	margin: 2.5px !important;
+}
+
+.rbc-row-segment {
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+}
+.rbc-event-content {
+	box-shadow: 0px 0px 5px #636262 !important;
+	border-radius: 5px !important;
+}
+
+.rbc-events-container .rbc-selected .project {
+	background-color: #d68000;
+}
+
+.rbc-events-container .rbc-selected .todo {
+	background-color: #007d41;
+}
+
+.rbc-events-container .rbc-selected .pTodo {
+	background-color: #9e4301;
+}
+
+.rbc-events-container .rbc-selected .officeWork {
+	background-color: #027a95;
+}
+
+.rbc-events-container .rbc-selected .urgent {
+	background-color: #d50000;
+}
+
+/* custom */
+.calenderWrapper {
+	width: 100%;
+}
+
+.calenderWrapper dialog {
+	padding: 0 !important;
+	margin: 0 !important;
+	height: 500px !important;
+	width: 50% !important;
+}
+
+.calenderWrapper .leftPartCalendar {
+	width: 72%;
+	padding: 10px;
+}
+
+.calenderWrapper .leftPartCalendar .calendarTopbar {
+	height: 100px;
+}
+
+.createNewButton {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px;
+	height: 40px;
+	background-color: #006fba;
+	color: white !important;
+	box-shadow: 0px 0px 5px #8d8d8d;
+}
+
+.calenderWrapper .leftPartCalendar .calendarView {
+	background-color: white;
+	padding: 10px;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+.eventContainer {
+	font-size: 0.75rem;
+	font-weight: 500;
+	height: 100%;
+	width: 100%;
+	font-family: "Public Sans", sans-serif;
+	border-radius: 3px;
+	transition: all 0.2s;
+}
+
+.project {
+	background-color: #ff9904;
+}
+
+.todo {
+	background-color: #0c8c4e;
+}
+
+.pTodo {
+	background-color: #793200;
+}
+
+.officeWork {
+	background-color: #00b5dd;
+}
+
+.urgent {
+	background-color: #d50000;
+}
+
+.smallCalendar {
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	height: 400px;
+	width: auto;
+	overflow: hidden;
+}
+
+.textRightCl {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.typeBox {
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	height: 150px;
+	width: auto;
+}
+
+.listItemsCl {
+	border: none !important;
+	outline: none !important;
+	padding: 0px 10px 5px 5px !important;
+	margin: 0 !important;
+	margin-right: 20px !important;
+}
+
+.eventTypes checkbox.ripple {
+	border-radius: 10px !important;
+	padding: 0 !important;
+	background-color: red !important;
+}
+
+.labelCl {
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	width: auto;
+}
+
+.showLabels {
+	height: 35px;
+	width: 100%;
+	border-radius: 5px;
+	padding: 15px !important;
+	max-lines: 1;
+	font-size: 14px;
+}
+
+.showLabels.pr {
+	background-color: #ff9b043a !important;
+}
+
+.showLabels.td {
+	background-color: #0c8c4e38;
+}
+
+.showLabels.ptd {
+	background-color: #79320044;
+}
+
+.showLabels.ow {
+	background-color: #00b5dd25;
+}
+
+.showLabels.u {
+	background-color: #d5000020;
+}
+
+.smallCircle {
+	height: 10px;
+	width: 10px;
+	border-radius: 100%;
+}
+
+.labelMenu {
+	font-size: 12px !important;
+	font-weight: 600 !important;
+}
+
+.workContents input {
+	background-color: transparent;
+	border: 2px solid gainsboro; /* Correct syntax */
+	height: 100%;
+	width: 100%;
+	font-size: 14px; /* Adjusted font size to 1rem or desired size */
+	padding: 8px; /* Optional: padding for better appearance */
+	border-radius: 4px; /* Optional: rounded corners */
+}
+
+.workContents input:focus {
+	outline: none;
+}
+
+.MuiTextField-root {
+	border: none !important; /* Correct syntax */
+	border-radius: 6px;
+	height: 40px;
+	font-family: "Public Sans", sans-serif !important;
+
+	font-size: 14px;
+	font-weight: bold;
+	outline: none !important;
+	padding: 2px !important;
+	margin: 0 !important;
+}
+
+.MuiSelect-select {
+	display: flex !important;
+	flex-direction: row !important;
+	justify-content: start;
+	align-items: center;
+	text-align: center;
+}
+
+.MuiSelect-outlined {
+	border: 2px solid gainsboro !important; /* Correct syntax */
+	font-size: 14px !important;
+	font-weight: 400 !important;
+}
+
+.description-create {
+	height: 230px;
+}
+
+

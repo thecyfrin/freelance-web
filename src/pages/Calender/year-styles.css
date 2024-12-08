@@ -1,0 +1,72 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.year {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.month {
+	margin: 5px 5px 15px 5px;
+}
+
+.month-name {
+	color: #191919;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.day {
+	display: inline-block;
+	width: 30px !important;
+	height: 30px !important;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 6px;
+}
+
+.date {
+	width: 30px !important;
+	height: 30px !important;
+	display: inline-block !important;
+	background: none;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	margin-left: 5px;
+	transition: all 0.3s;
+}
+
+.date.in-month:hover {
+	cursor: pointer;
+	background-color: #006fba;
+	color: white;
+	font-weight: 600;
+}
+
+.today {
+	background: #006fba;
+	color: white;
+	font-weight: 600;
+}
+
+.date.prev-month,
+.date.next-month {
+	color: rgb(196, 196, 196);
+}
+
+.scrollable-year {
+	height: auto;
+	overflow-y: visible; /* Enables vertical scrolling */
+	border: 1px solid #ddd; /* Optional: border to visually separate the scrollable area */
+	padding: 10px; /* Optional: padding for layout spacing */
+	box-sizing: border-box; /* Ensures padding does not add extra width/height */
+}

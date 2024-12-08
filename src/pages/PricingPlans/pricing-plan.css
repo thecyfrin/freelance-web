@@ -1,0 +1,18 @@
+.pricing-wrapper {
+	flex: 1;
+	border-radius: 15px;
+	background-color: white;
+	padding: 20px 0px;
+    transition: all 0.25s;
+}
+
+.pricing-wrapper:hover {
+	background-color: #005de875;
+	color: #ffffff;
+}
+.divider-pricing {
+	width: 100%;
+	height: 2px;
+	border-bottom: 1px solid gainsboro;
+	padding: 1rem 0px !important;
+}

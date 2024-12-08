@@ -1,0 +1,126 @@
+.userWrapper {
+	width: 100% !important;
+	height: 100vh; /* Set to full viewport height */
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.topBarUsers {
+	height: 100px;
+	padding: 10px;
+	color: #191919;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0% 2%;
+}
+
+.user-search {
+	height: 40px;
+	width: 30vw;
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 0px 10px;
+	box-shadow: 0px 0px 5px #ddd;
+}
+
+.user-search input {
+	background-color: transparent;
+	border: none;
+	height: 100%;
+	width: 100% !important;
+	font-size: 10 rem;
+	margin-left: 5px;
+}
+.user-search input:focus {
+	outline: none;
+}
+
+.add-user-btn button {
+	padding: 5px 15px;
+	min-width: 80px;
+	max-width: 200px;
+	border-radius: 10px;
+	font-size: 0.7rem;
+	box-shadow: 0px 0px 5px #ddd;
+}
+
+.sort-menu {
+	height: 40px;
+	width: 120px;
+	border-radius: 20px !important;
+	font-size: 0.85rem !important;
+}
+
+.sort-menu menu {
+	font-size: 0.7rem;
+	font-weight: 500 !important;
+}
+
+.saved-searches {
+	height: 40px;
+	border-radius: 20px !important;
+	font-size: 0.85rem !important;
+}
+
+.saved-searches menu {
+	font-size: 0.7rem;
+	font-weight: 500 !important;
+}
+
+.filter-wrapper button {
+	background-color: #f1f1f1;
+	height: 20px;
+	width: 20px;
+	object-fit: contain !important;
+}
+
+.content-grid-view {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); /* Two columns */
+	gap: 10px;
+	padding: 3px 15px;
+}
+
+.content-item {
+	box-shadow: 0px 0px 5px #ddd;
+}
+
+.content-item:hover {
+	box-shadow: 0px 0px 2px #ecebeb !important;
+}
+
+.user-details-wrapper button {
+	background-color: inherit !important;
+}
+
+.actions-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5px;
+}
+
+.dialog-body {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	height: 100vh !important; /* Ensure it stretches to full screen height */
+	width: 100vw !important; /* Ensure it stretches to full screen width */
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.add-user-dialog {
+	height: 80vh !important; /* Ensure it stretches to full screen height */
+	width: 80vw !important; /* Ensure it stretches to full screen width */
+	background-color: white;
+	border-radius: 1.5rem;
+}
+
+.add-user-dialog .cancel-icon {
+	height: 2rem !important;
+	width: 2rem !important;
+	background-color: white;
+	border-radius: 8px;
+}

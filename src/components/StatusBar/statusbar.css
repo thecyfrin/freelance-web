@@ -1,0 +1,47 @@
+.selectLanguage {
+	height: 40px;
+	width: 150px;
+	background-color: #f1f1f1 !important;
+	border-radius: 20px !important;
+}
+
+.menuItems {
+	width: 40; /* Full width for the list */
+	padding: 0; /* Reset padding for clean alignment */
+	margin: 0; /* Reset margin for clean alignment */
+	align-items: center;
+	justify-content: center;
+}
+
+.menuItems .menuItem:hover {
+	background-color: #e0e0e0; /* Highlight on hover */
+}
+
+.no-select {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.appStatusBar button {
+	background-color: inherit;
+}
+
+.reset-utility-button {
+	background-color: rgb(219 234 254) !important;
+	color: rgb(29 78 216) !important;
+	border-radius: 50px !important;
+}
+
+.purchase-button-utility {
+	color: #fff !important;
+	background-color: rgb(29 78 216) !important;
+	border-radius: 50px !important;
+}
+
+
+.no-select label {
+	padding: 0 !important;
+}

@@ -1,0 +1,74 @@
+.blankPageWrapper {
+	width: 100% !important;
+	height: 100vh !important; /* Set to full viewport height */
+	display: flex;
+	flex-direction: column;
+}
+
+.blankContent {
+	flex: 1; /* Ensures it takes up remaining height after PageTopbar */
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center;
+	padding: 30px !important;
+	position: relative; /* Set positioning context for absolute children */
+	width: 100%; /* Full width */
+}
+
+.pageTitle {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.pageDesc {
+	font-size: 12px;
+	font-weight: 500;
+	color: grey;
+}
+
+.blankPageButton {
+	background-color: #006fba;
+	padding: 05px 15px !important;
+	align-items: center;
+	border-radius: 20px;
+	font-size: 13px !important;
+	font-weight: 500 !important;
+}
+
+.bottomFooter {
+	font-size: 14px;
+	font-weight: 500;
+	color: grey !important;
+	text-decoration: none;
+	position: absolute; /* Position absolutely within .blankContent */
+	bottom: 1px; /* Offset slightly from bottom */
+	margin-top: 10px;
+	right: 30px; /* Offset slightly from right */
+	display: flex;
+	gap: 10px; /* Optional: add spacing between items */
+}
+
+.nothing {
+	font-size: 10px !important;
+}
+
+a:link {
+	padding: 0 !important;
+	text-decoration: none;
+	color: grey !important;
+}
+a:visited {
+	padding: 0 !important;
+	text-decoration: none;
+	color: grey !important;
+}
+a:hover {
+	padding: 0 !important;
+	text-decoration: none;
+	color: grey !important;
+}
+a:active {
+	padding: 0 !important;
+	text-decoration: none;
+	color: grey !important;
+}

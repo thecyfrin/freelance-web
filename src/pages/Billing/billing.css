@@ -1,0 +1,44 @@
+.billing-content {
+	padding-bottom: 10px; /* Add extra padding to avoid overlap */
+}
+
+.billingFooter {
+	font-size: 14px;
+	font-weight: 500;
+	color: grey !important;
+	text-decoration: none;
+	display: inline-flex;
+	gap: 10px; /* Adds a 10px gap between items */
+	align-items: center; /* Vertically centers the items */
+	justify-content: flex-end; /* Aligns items to the right */
+	padding: 10px; /* Optional: Add padding for spacing around the footer */
+}
+
+.plan-benefit-container {
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	gap: 10px;
+}
+
+.masked-card-number {
+	white-space: nowrap; /* Prevent line breaks */
+	overflow: visible; /* Prevent content from overflowing the container */
+	text-overflow: ellipsis; /* Add ellipsis if it overflows */
+}
+
+a:link {
+	padding: 0% 0%;
+	text-decoration: none;
+}
+a:visited {
+	padding: 0% 2%;
+	text-decoration: none;
+}
+a:hover {
+	padding: 0% 2%;
+	text-decoration: none;
+}
+a:active {
+	padding: 0% 2%;
+	text-decoration: none;
+}

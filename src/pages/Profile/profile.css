@@ -1,0 +1,47 @@
+.profile-images-container {
+	padding-bottom: 3rem; /* Matches the negative margin of the profile image */
+	overflow: hidden; /* Ensures no content escapes the container */
+}
+
+.all-events-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Two equal-width columns */
+	gap: 15px; /* Space between grid items */
+	width: 100%; /* Full width */
+}
+
+.image-input-wrapper {
+	display: inline-block;
+	position: relative;
+}
+
+.profile-settings-contents .profile-image-input {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.language-selector button {
+	background-color: white !important;
+	border: 1px black solid;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	padding: 0.75rem;
+}
+
+.setting-center-personal-info {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}
+
+.setting-bottom-advanced-info {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+}

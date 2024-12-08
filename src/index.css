@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: #f7fafb !important;
+}
+
+.main {
+	background: #f7fafb;
+	font-family: "Public Sans", sans-serif;
+	height: 100vh !important;
+}
+
+.main .sidebarWrapper {
+	height: 100vh;
+}
+
+.main .sidebarWrapper .sidebar {
+	height: 100vh;
+	background: #ffffff;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button {
+	justify-content: flex-start !important;
+	color: #191919;
+	text-transform: none;
+	font-size: 12px;
+	border-radius: 0px !important;
+	padding: 3px 10px !important;
+	text-align: start;
+	position: relative;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button svg {
+	font-size: 18px;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button .arrow {
+	transition: all 0.3s;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button .arrow svg {
+	font-size: 14px;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button ::before {
+	content: "";
+	width: 3px;
+	height: 0%;
+	position: absolute;
+	top: 50%;
+	left: -5px;
+	background: #006fba;
+	transition: all 0.3s;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button:hover ::before,
+.main .sidebarWrapper .sidebar .sidebarTabs button.active ::before {
+	top: 0px;
+	height: 100%;
+	opacity: 1;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button.active,
+.main .sidebarWrapper .sidebar .sidebarTabs button.active * {
+	color: #006fba !important;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button.active svg {
+	fill: #006fba !important;
+	font-size: 18px;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs ul {
+	width: 100%;
+	margin-bottom: 0px;
+	padding: 0;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs ul li {
+	list-style-type: none;
+	width: 100%;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs li button.subMenu {
+	justify-content: flex-start !important;
+	color: #4a4a4a;
+	text-transform: none;
+	font-size: 12px;
+	font-weight: 500 !important;
+	border-radius: 0px !important;
+	padding: 4px 3vw !important;
+	text-align: start;
+	position: relative;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button.subMenu::before {
+	display: none;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs li .submenuWrapper {
+	transition: all 0.4s;
+	height: 0px;
+	overflow: hidden;
+	opacity: 0;
+}
+
+.main
+	.sidebarWrapper
+	.sidebar
+	.sidebarTabs
+	li
+	.submenuWrapper.collapsed
+	.sidebarMenu {
+	opacity: 0;
+	transition: all 0.2s;
+}
+
+.main .o-web-content-view {
+	display: flexbox;
+	margin: 0;
+	overflow: visible;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs li .submenuWrapper.shown {
+	opacity: 1;
+	height: auto;
+	overflow: auto;
+	padding: 10px 0px;
+	transition: all 0.2s;
+}
+
+.main
+	.sidebarWrapper
+	.sidebar
+	.sidebarTabs
+	li
+	.submenuWrapper.shown
+	.sidebarMenu {
+	opacity: 1;
+	height: auto;
+}
+
+.main
+	.sidebarWrapper
+	.sidebar
+	.sidebarTabs
+	li
+	.submenuWrapper.shown
+	button.selected {
+	color: #006fba !important;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs button .arrow.rotate {
+	transform: rotate(180deg);
+}
+
+.main .sidebarWrapper .sidebar .sidebarTabs li h6.identifier {
+	text-shadow: #006fba;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 10px 12px 0px 12px;
+}
+
+.appStatusBar {
+	width: 100%;
+	height: 80px;
+	background-color: #ffffff;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	padding: 5px 20px;
+}
+
+.appStatusBar .searchWrapper {
+	height: 40px;
+	width: 250px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #ddd;
+}
+
+.appStatusBar .user-image-button {
+	max-height: 50px !important;
+	max-width: 50px !important;
+}
+.appStatusBar .searchWrapper input {
+	background-color: transparent;
+	border: none;
+	height: 100%;
+	width: 100%;
+	font-size: 10 rem;
+	margin-left: 5px;
+}
+.appStatusBar .searchWrapper input:focus {
+	outline: none;
+}
+
+.dashboardBoxWrapper {
+	gap: 20px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.dashboardBoxWrapper .dashboardBox {
+	width: 48%;
+	height: 170px;
+	border-radius: 10px;
+	overflow: hidden;
+	justify-content: space-around;
+	text-align: left !important;
+	position: relative;
+	color: #ffffff;
+}
+
+.dashboardBoxWrapper .dashboardBox .col1 h4 {
+	font-size: 16px;
+}
+
+/* .topbarWrapper {
+	height: 100px;
+	width: 30vw;
+	align-items: center !important;
+	justify-content: start !important;
+} */
+
+.leftTopItem {
+	height: 100px;
+	width: 250px;
+	padding: 10px 0px !important;
+	align-items: start !important;
+}
+.leftTopItem .pageName {
+	color: #191919;
+	font-size: 16px;
+	font-weight: 700;
+	padding: 0% 2%;
+}
+
+.leftTopItem .linkName {
+	color: #797777;
+	font-size: 12px !important;
+	font-weight: 500 !important;
+}
+
+.leftTopItem .thisPage {
+	color: #191919;
+	font-size: 13px !important;
+	font-weight: 600 !important;
+}
+
+a:link {
+	padding: 0% 0%;
+	text-decoration: none;
+}
+a:visited {
+	padding: 0% 2%;
+	text-decoration: none;
+}
+a:hover {
+	padding: 0% 2%;
+	text-decoration: none;
+}
+a:active {
+	padding: 0% 2%;
+	text-decoration: none;
+}
+
+.tappableButton Button.tapButton {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px;
+	height: 40px;
+	background-color: white;
+	color: black !important;
+	box-shadow: 0px 0px 5px #8d8d8d;
+}
+
+.tappableButton Button.directButton {
+	background-color: #006fba;
+	color: white !important;
+}
+
+.rightPartCalendar {
+	margin-top: 15px;
+	width: 28%;
+}
+
+.horizontalbar .hori-active {
+	justify-content: flex-start !important;
+	color: #191919;
+	font-size: 12px;
+	border-radius: 5px !important;
+	padding: 3px 10px !important;
+	text-align: start;
+	position: relative;
+}
+
+.horizontalbar button.hori-active,
+.horizontalbar button.hori-active * {
+	background-color: rgba(209, 223, 240, 0.35) !important;
+	color: #000 !important;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
